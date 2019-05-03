@@ -26,7 +26,7 @@ RUN apt-get update && \
 	rm -rf /var/lib/apt/lists/*
 
 ADD catson.py /bootstrap/
-ADD startup.sh /bootstrap/
+ADD startup.sh /
 
 RUN chmod +x /startup.sh
 
